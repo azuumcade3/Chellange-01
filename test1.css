@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.header-section {
+    background: url('01.jpg') center/cover no-repeat;
+    height: 330px;
+    position: relative;
+}
+
+.header-overlay {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.header-overlay h1 {
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+/* ABOUT SECTION */
+.about {
+    padding: 70px 10%;
+}
+
+.about-container {
+    display: flex;
+    gap: 40px;
+}
+
+.about-left {
+    position: relative;
+}
+
+.about-left img {
+    width: 100%;
+    height: 130px;
+
+    border-radius: 8px;
+}
+
+.img-top { margin-bottom: 20px; }
+
+.blue-box {
+    position: absolute;
+    background: #0b3777;
+    color: white;
+    padding: 25px;
+    bottom: 80px;
+    left: 40px;
+    width: 160px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.about-right h2 {
+    font-size: 32px;
+}
+
+.about-right h2 span {
+    color: #0b3777;
+}
+
+.about-right h3 {
+    margin-top: 15px;
+    color: #0b3777;
+}
+
+/* STATS */
+.stats {
+    background: #0b3777;
+    padding: 40px 0;
+    color: white;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.stat-box h2 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.stat-box p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* WHY CHOOSE US */
+.choose {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.choose-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.choose-box {
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.choose-box:hover {
+    background: #0b3777;
+    color: white;
+}
