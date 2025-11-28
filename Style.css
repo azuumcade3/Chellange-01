@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.header-section {
+    background: url('https://via.placeholder.com/1920x500') center/cover no-repeat;
+    height: 330px;
+    position: relative;
+}
+
+.header-overlay {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.header-overlay h1 { font-size: 40px; margin-top: 10px; }
+.header-overlay p { margin-top: 10px; }
+
+/* About Section */
+.about {
+    padding: 70px 10%;
+}
+
+.about-container {
+    display: flex;
+    gap: 30px;
+}
+
+.about-images img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.blue-box {
+    background: #0b3a6e;
+    color: #fff;
+    padding: 20px;
+    width: 170px;
+    border-radius: 4px;
+    font-size: 22px;
+}
+
+.about-text h1 {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+.about-text h1 span {
+    color: #0b3a6e;
+}
+
+.about-text h3 {
+    margin-top: 15px;
+    color: #0b3a6e;
+}
+
+/* Stats */
+.stats {
+    background: #0b3a6e;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.stat-box h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.stat-box p {
+    margin-top: 10px;
+}
+
+/* Why choose us */
+.choose {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.choose-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.choose-box {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.choose-box:hover {
+    background: #0b3a6e;
+    color: #fff;
+}
