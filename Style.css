@@ -7,7 +7,7 @@
 
 /* Header Section */
 .header-section {
-    background: url('https://via.placeholder.com/1920x500') center/cover no-repeat;
+    background: url('01.jpg') center/cover no-repeat;
     height: 330px;
     position: relative;
 }
@@ -37,7 +37,9 @@
     width: 100%;
     margin-bottom: 15px;
     border-radius: 8px;
+    height: 150px;
 }
+
 
 .about-text {
     flex: 1;
